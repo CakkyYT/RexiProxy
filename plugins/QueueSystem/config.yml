@@ -1,0 +1,5 @@
+message: '&6[File d''attente] &fVous etes en &6%position% &fposition sur &6%size%'
+delay: 2
+players: 1
+servers: '[]'
+messageType: CHAT

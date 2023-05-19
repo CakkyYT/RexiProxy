@@ -1,0 +1,44 @@
+MYSQL:
+  ENABLED: false
+  HOST: 62.4.9.106
+  PORT: 3306
+  USERNAME: root
+  DATABASE: reports
+  PASSWORD: Hoezgeg68e4gz8egeg486%
+Report_Cooldown: 30
+Cooldown_Wait: '&8[&cREPORT&8] &eVous devez attendre&7: &6%time% &esecondes.'
+Player_Offline: '&8[&cREPORT&8] &eLe joueur n''est plus en ligne.'
+Cant_Report_Your_Self: '&8[&cREPORT&8] &eVous ne pouvez pas vous signaler.'
+Cant_Report: '&8[&cREPORT&8] &eVous ne pouvez pas signaler ce membre.'
+Usage: '&8[&cREPORT&8] &e/report &7(&ejoueur&7) &7(&eraison&7)&e.'
+No_Permission: '&8[&cREPORT&8] &eVous n''avez pas la permission.'
+Player_Reported: '&8[&cREPORT&8] &eSignalement effectué avec &asuccès&e.'
+Report_Format:
+- ''
+- '&7&l▎ &4&l⚠ &c&lSIGNALEMENT &4&l⚠'
+- ''
+- '&7&l▎ &a%player% &ea signalé &7: &c%player2%&e.'
+- ''
+- '&7&l▎ &eRaison &7: &d%reason%&e.'
+- '&7&l▎ &eServeur &7: &b%server%&e.'
+- ''
+Report_Format_Footer: ''
+Goto_Msg: '&7&l▎ &a&nRejoindre le serveur.'
+Goto_Hover_Msg: '&a&nRejoindre le serveur.'
+Goto_Connect: ''
+Goto_Same_Server: '&8[&cREPORT&8] &eVous êtes déjà sur le serveur.'
+Storege_Format: '&7&l▎ &c%player2% &b&l» &a%player%&e &b&l» &d%reason% &b&l» &6%date%'
+GetReports:
+  Header: ''
+  Footer: ''
+  Usage: '&8[&cREPORT&8] &e/reports &7(&ejoueur&7)&e.'
+Reports_Empty: '&8[&cREPORT&8] &eAucun signalement sur ce compte.'
+History_Deleted: '&8[&cREPORT&8] &eSuppression du signalement de &7: &c%player%&e.'
+DelHistory_Usage: '&8[&cREPORT&8] &e/delreports &7(&ejoueur&7)&e.'
+Title:
+  Enabled: true
+  Title: '&6&lNEW REPORT'
+  Sub_Title: '&eReported: &6%player2%'
+  Fade_in: 1
+  Stay: 5
+  Fade_out: 1

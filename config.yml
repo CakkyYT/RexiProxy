@@ -1,0 +1,143 @@
+inject_commands: false
+forge_support: false
+enforce_secure_profile: false
+remote_ping_cache: 4000
+player_limit: 200
+permissions:
+  Fondateur:
+  - lobby.*
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - bungeecord.command.find
+  - bungeecord.command.send
+  - breport.command.report
+  - breport.reports.receive
+  - breport.command.reload
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+  - jeysonsk.login
+  - bm.command.*
+  - bm.*
+  - bm.command.ban
+  - bm.command.tempban
+  - bm.command.unban
+  - bm.command.warn
+  - bm.command.tempwarn
+  - bm.command.banlist
+  - bm.command.banlist.players
+  - bm.command.clear
+  - bm.command.clear.banrecords
+  - bm.command.clear.kicks
+  - bm.command.clear.muterecords
+  - bm.command.clear.notes
+  - bm.command.clear.reports
+  - bm.command.clear.warnings
+  - bm.command.delete
+  - bm.command.delete.banrecords
+  - bm.command.delete.kicks
+  - bm.command.mute
+  - bm.command.tempmute
+  - bm.command.unmute
+  administrateur:
+  - bungeecord.command.alert
+  - bungeecord.command.server
+  - bungeecord.command.send
+  - breport.command.report
+  - breport.reports.receive
+  - breport.command.reload
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+  - jeysonsk.login
+  - serverlistplus.admin
+  default:
+  - breport.command.report
+  - litebans.notify.broadcast
+  - bm.notify.mute
+  - bm.notify.muted
+  - bm.notify.unmute
+  - bm.notify.warn
+  - bm.notify.tempwarn
+  - lobby.use
+  developpeur:
+  - bungeecord.command.alert
+  - bungeecord.command.server
+  - bungeecord.command.send
+  - breport.command.report
+  - breport.reports.receive
+  - breport.command.reload
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+  - jeysonsk.login
+  - serverlistplus.admin
+  guide:
+  - breport.command.report
+  - breport.reports.receive
+  moderateur:
+  - breport.command.report
+  - breport.reports.receive
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+  respmoderateur:
+  - breport.command.report
+  - breport.reports.receive
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+timeout: 4000
+log_commands: false
+server_connect_timeout: 4000
+online_mode: true
+servers:
+  fk:
+    address: 0.0.0.0:25568
+    motd: ''
+    restricted: false
+  lobby:
+    address: 85.208.114.165:25566
+    motd: OJ
+    restricted: false
+  rp:
+    address: 85.208.114.165:25567
+    motd: ''
+    restricted: false
+  survie:
+    address: 0.0.0.0:25569
+    motd: ''
+    restricted: false
+listeners:
+- bind_local_address: true
+  force_default_server: true
+  forced_hosts:
+    play.rexilya.network: lobby
+  host: 0.0.0.0:25565
+  max_players: 300
+  motd: '&1Another Bungee server'
+  ping_passthrough: false
+  priorities:
+  - lobby
+  proxy_protocol: false
+  query_enabled: true
+  query_port: 25565
+  tab_list: GLOBAL_PING
+  tab_size: 90
+remote_ping_timeout: 5000
+ip_forward: true
+network_compression_threshold: 256
+prevent_proxy_connections: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: 5000
+stats: f78f4ab9-e34e-4a4d-8962-65bb50a062cf
+connection_throttle_limit: 3
+groups:
+  CakkyYTOff:
+  - Fondateur
+log_pings: false
