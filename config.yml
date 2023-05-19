@@ -2,7 +2,7 @@ inject_commands: false
 forge_support: false
 enforce_secure_profile: false
 remote_ping_cache: 4000
-player_limit: 200
+player_limit: 300
 permissions:
   Fondateur:
   - lobby.*
